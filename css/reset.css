@@ -1,0 +1,20 @@
+/*노말리이즈*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
+::placeholder{
+  font-family: inherit;
+  font-size: inherit;
+  color: #999;
+}
